@@ -46,9 +46,9 @@ print(f"Switch job created: {result.job_url}")
 # MAGIC comment_lang | `Japanese` / `Chinese` / `Korean` / `English`
 # MAGIC endpoint_name | `databricks-gpt-oss-120b` / `databricks-gpt-oss-20b`
 # MAGIC input_dir | `/Workspace/Users/<your-email>/lakebridge-switch-handson/examples/<builtin_prompt>/input`
-# MAGIC output_dir | 自身のホームフォルダ内に任意のフォルダを作成し、そのパスを指定
-# MAGIC result_catalog | 任意のカタログ (特になければ `main` )
-# MAGIC result_schema | 上記カタログ内の任意のスキーマ (特になければ `switch_handson_<your-name>` )
+# MAGIC output_dir | 自身のホームフォルダ内に任意のフォルダを作成し、そのパスを指定 (特になければ `/Workspace/Users/<your-email>/lakebridge-switch-handson/handson_output`)
+# MAGIC result_catalog | 任意のカタログ (特になければ `main` 、事前に作成する必要あり)
+# MAGIC result_schema | 上記カタログ内の任意のスキーマ (特になければ `switch_handson_<your-name>` 、事前に作成する必要あり )
 # MAGIC
 # MAGIC ## 4. ジョブの実行内容の確認
 # MAGIC ジョブが完了するまで10分ほど待つ。その間に実行されるノートブックの処理内容を観察する。
