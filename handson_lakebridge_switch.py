@@ -44,7 +44,7 @@ print(f"Switch job created: {result.job_url}")
 # MAGIC --- | ---
 # MAGIC builtin_prompt | `snowflake` / `mysql` / `netezza` / `oracle` / `postgresql` / `redshift` / `teradata` / `tsql`
 # MAGIC comment_lang | `Japanese` / `Chinese` / `Korean` / `English`
-# MAGIC endpoint_name | `databricks-gpt-oss-120b` / `databricks-gpt-oss-20b`
+# MAGIC endpoint_name | `databricks-gpt-oss-120b` / `databricks-gpt-oss-20b` / `databricks-claude-sonnet-4`
 # MAGIC input_dir | `/Workspace/Users/<your-email>/lakebridge-switch-handson/examples/<builtin_prompt>/input`
 # MAGIC output_dir | 自身のホームフォルダ内に任意のフォルダを作成し、そのパスを指定 (特になければ `/Workspace/Users/<your-email>/lakebridge-switch-handson/handson_output`)
 # MAGIC result_catalog | 任意のカタログ (特になければ `main` 、事前に作成する必要あり)
