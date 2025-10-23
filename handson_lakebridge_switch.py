@@ -11,7 +11,7 @@
 
 # COMMAND ----------
 
-# MAGIC %pip install databricks-switch-plugin --force-reinstall
+# MAGIC %pip install databricks-switch-plugin==0.1.1 --force-reinstall
 # MAGIC dbutils.library.restartPython()
 
 # COMMAND ----------
